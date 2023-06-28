@@ -1,0 +1,102 @@
+/* THIS IS FOR THE FIRST SECTION */
+#Head_section {
+    margin: 0px;
+    background-color: #1c1818 ;  /* #1c1818 */
+}
+#Thala p{ 
+    
+    position: relative;
+    top: .5em;
+    color: white;
+
+}
+#Thala i{
+    position: relative;
+    top: .3em;
+    color:#C7C7C7;
+}   
+#Thala i:hover{
+    color: #fd7e14;
+    cursor: pointer;
+}
+
+/* THIS IS FOR THE SECOND SECTION  */
+#navbar_ul a:hover{
+color: #fd7e14;
+}
+/* THIS IS FOR THE THIRD SECTION  */
+#sec3_div1{
+    background-image:url(../images/banner2.png);
+    /* background-color: tomato; */
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+}
+#sec3_div2 h1,p{
+    color: white;
+}
+#sec3_div2 h1{
+ font-size: 5em;
+}
+#sec3_div2 button{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: .6em;
+    padding-bottom: .6em;
+    color:#fd7e14;
+}
+#sec3_div2 button:hover{
+    color:white;
+    background-color: #fd7e14;
+    border: 1px solid #fd7e14;
+}
+
+/* THIS IS FOR THE FIFTH SECTION  */
+
+#secE_div1 p{
+    color: black;
+    font-size: medium;
+
+}
+#secE_namecard1,#secE_namecard2,#secE_namecard3 {
+    background-image: url(../images/our_services.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 8em;
+    height: 50%;
+    line-height: 10em;
+
+
+}
+#secE_namecard p{
+    font-size: small;
+    
+}
+#secE_card1,#secE_card2,#secE_card3{
+    border: 1px solid #fd7e14;
+}
+
+#secE_card1:hover,#secE_card2:hover,#secE_card3:hover{
+    border:currentColor;
+}
+#secF_div1 button{
+    background-image: -webkit-linear-gradient(0deg, #f14437 0%, #ed5b0d 99%);
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: .6em;
+    padding-bottom: .6em;
+
+}
+
+#secF_btn1{
+    background-image: -webkit-linear-gradient(0deg, #f14437 0%, #ed5b0d 99%);
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: .6em;
+    padding-bottom: .6em;
+
+}
+#carouselExampleInterval p{
+    color: black;
+}

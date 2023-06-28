@@ -17,17 +17,17 @@
 </head>
 <body>
     <header>
-        <div id="Head_section" class="container-fluid">
+        <div id="Head_section" class="container-fluid" style="border:1px solid green">
 
         <!-- THIS IS FOR THE FIRST HEAD SECTION-->
 
-            <div class="first_head align-items-center" id="head1">
+            <div class="first_head align-items-center" id="Thala">
                 <div class="containter-fluid text-center">
-                    <div class="row" style="border:1px solid black">
-                        <div class="col-lg-6 col-md-8;">
-                            <div class="row " style="border:1px solid blue">
+                    <div class="row " style="border:1px solid black">
+                        <div class="col-lg-6 col-md-8 text-start">
+                            <div class="row" style="border:1px solid red">
                                 <div class="col-md-5 offset-sm-1 align-self-center" style="border:1px solid green"><p>+880 4664 216</p></div>
-                                <div class="col-md-5 offset-sm-1 align-self-center"> <p>Mon - Sat 10:00 - 7:00</p></div>
+                                <div class="col-md-5 offset-sm-1 align-self-center"><p>Mon - Sat 10:00 - 7:00</p></div>
                             </div>                       
                         </div>
                         <div class="col-lg-6 col-md-4 ">
@@ -57,7 +57,7 @@
 
 
             </div>
-
+    </div>
 
             <!--  THIS IS FOR THE SECOND HEAD SECTION (NAV-BAR) -->
                     <!-- 
@@ -68,7 +68,7 @@
 
                              -->
 
-            <nav class="navbar navbar-expand-lg" style="border:1px solid black">
+            <nav id="navbar_sec1" class="navbar navbar-expand-lg" style="border:1px solid black">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"> 
                         <img src="../Task 5/images/logo.png" alt="Logo" width="90" height="40" class="d-inline-block align-text-top">
@@ -79,7 +79,7 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul id="navbar_ul" class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -110,11 +110,11 @@
                         </li>
 
                         <li class="nav-item">
-                        <a class="nav-link active">Services</a>
+                        <a class="nav-link active" href="#">Services</a>
                         </li>
 
                         <li class="nav-item">
-                        <a class="nav-link active">Contact</a>
+                        <a class="nav-link active" href="#">Contact</a>
                         </li>
                     </ul>
                     
@@ -122,83 +122,87 @@
             </div>
         </nav>
 
-    </div>
+    
 
         <!-- THIS IS FOR THE THIRD HEAD SECTION (DOG IMAGE AND HEADINGS) -->
-        <div class="container-fluid" style="background-color: tomato;">
+        <div id="sec3_div1" class="container-fluid">
+        <div class="container">
 
-            <div class="row align-items-center justify-content-center">
-                <div class="col-md-5"style="border: 1px solid red";>
-                    <h1>We Care</h1>
+            <div class="row ">
+                <div class="col-md-5" style="border: 1px solid blue";>
+                    <div id="sec3_div2" style="border: 1px solid green;">
+                    <h1 class="fw-light">We Care</h1>
                     <h1><b>Your Pets</b></h1>
                     <p>Lorem ipsum dolor sit amet, consectetur
                         adipiscing elit, sed do eiusmod.</p>
-                    <button type="button" class="btn btn-light">Contact Us</button>
-                    
+                    <button type="button" class="btn btn-light rounded-pill">Contact Us</button>
+                    </div>   
                     
                 </div>
         
-                <div class="col-md-7 float-left" style="border: 1px solid red;">
-                    <img src="../Task 5/images/dog.png " class="text-start" style="border:1px solid yellow; width:40em;" alt="This image can not be displayed">
+                <div class="col-md-7" style="border: 1px solid red;">
+                    <img src="../Task 5/images/dog.png " class="text-start py-5" style="border:1px solid yellow; width:40em;" alt="This image can not be displayed">
                 </div>
             
             </div>
+        </div>
 
         </div>
 
-        <!--  THIS IS FOR THE 5th SECTION OF THE PROJECT () -->
+        <!--  THIS IS FOR THE 5th SECTION OF THE PROJECT (SERVICES FOR EVERY DOG) -->
 
-        <div class="secE_div1">
+        <div id="secE_div1">
 
             <div class="container-fluid text-center" style="border:1px solid black">
                 <div class="row align-items-center">
-                    <div class="col-md-12">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
                         <b><h1>Services for every dog</h1></b>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                     </div>
                 </div>
 
                 <!-- HERE COMES THE NAMECARDS -->
 
-                <div class="row align-items-center justify-content-evenly">
+                <div  id="secE_namecard" class="row align-items-center justify-content-evenly pt-5">
                     <div class="col-md-3">
-                        <div class="card" style="width: 18rem;">
-                            <div class="container justify-content-center" style="border:1px solid black;">
-                                <img src="../Task 5/images/service_icon_1.png" class="card-img-top" style="width:5em" alt="something went wrong!!!">
+                        <div id="secE_card1" class="card shadow-sm p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;height: 22rem;">
+                            <div id="secE_namecard1" class="container justify-content-center" style="border:1px solid black;">
+                                <img src="../Task 5/images/service_icon_1.png" class="card-img-top" style="width:5em; border: 1px solid blue;" alt="something went wrong!!!">
                             </div>
                             
                             <div class="card-body">
                               <h5 class="card-title">Pet Boarding</h5>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+                              <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
                               
                             </div>
                           </div>
                     </div>
 
                     <div class="col-md-3">
-                        <div class="card" style="width: 18rem;">
-                            <div class="container justify-content-center" style="border:1px solid black;">
-                                <img src="../Task 5/images/service_icon_2.png" class="card-img-top" style="width:5em" alt="something went wrong!!!">
+                        <div id="secE_card2" class="card shadow-sm p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;height: 22rem;">
+                            <div id="secE_namecard2" class="container justify-content-center" style="border:1px solid black;">
+                                <img src="../Task 5/images/service_icon_2.png" class="card-img-top align-self-center" style="width:5em" alt="something went wrong!!!">
                             </div>
                             
                             <div class="card-body">
                               <h5 class="card-title">Healthy Meals</h5>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+                              <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
                               
                             </div>
                           </div>
                     </div>
 
                     <div class="col-md-3">
-                        <div class="card" style="width: 18rem;">
-                            <div class="container justify-content-center" style="border:1px solid black;">
+                        <div id="secE_card3" class="card shadow-sm p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem; height: 22rem;">
+                            <div id="secE_namecard3" class="container justify-content-center" style="border:1px solid black;">
                                 <img src="../Task 5/images/service_icon_3.png" class="card-img-top" style="width:5em" alt="something went wrong!!!">
                             </div>
                             
                             <div class="card-body">
                               <h5 class="card-title">Pet Spa</h5>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+                              <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
                               
                             </div>
                           </div>
@@ -225,51 +229,53 @@
             <!-- This section will contain ABOUT US CONTACT US and OUR TEAM -->
 
             <!-- THIS IS FOR ABOUT US SECTIONS  -->
-        <div class="secE_div1" style="border:1px solid black">
-            <div class="contianer-fluid text-start">
+        <div id="secF_div1" style="border:1px solid black">
+            <div class="contianer-fluid text-end">
                 <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <img src="../Task 5/images/pet_care.png" alt="Image source not found!!!">
+                    <div class="col-md-5 " style="border:1px solid red">
+                        <img style="width:65%" src="../Task 5/images/pet_care.png" alt="Image source not found!!!">
                     </div>
-                    <div class="col-md-6">
-                        <h1>We care your pet </h1>
+                    <div class="col-md-1"></div>
+                    <div  id="secF_button" class="col-md-5 text-start">
+                        <h1 class="fw-normal">We care your pet </h1>
                         <h1><b>As you care</b></h1>
-                        <p>Lorem ipsum dolor sit , consectetur adipiscing elit, sed do
+                        <p class="text-muted">Lorem ipsum dolor sit , consectetur adipiscing elit, sed do
                             iusmod tempor incididunt ut labore et dolore magna aliqua.
                             Quis ipsum suspendisse ultrices gravida. Risus commodo
                             viverra maecenas accumsan.</p>
-                        <button type="button" class="btn btn-dark">About Us</button>
+                        <button type="button" class="btn btn-light rounded-pill">About Us</button>
                     </div>
                 </div>
             </div>
 
         </div>
 
-        <!-- THIS IS FOR ABOUT US SECTIONS  -->
+        <!-- THIS IS FOR CONTACT US SECTIONS  -->   
 
-        <div class="secE_div2">
+        <div class="secF_div2 pt-5 pb-5">
             <div class="container-fluid text-start">
                 <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <h1>We need your <b>help Adopt Us</b></h1>
-                        <p>Lorem ipsum dolor sit , consectetur adipiscing elit, sed do iusmod tempor 
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                        <h1 class="fw-light">We need your <span class="fw-semibold">help Adopt Us</span></h1>
+                        <p class="text-muted" style="color: black;">Lorem ipsum dolor sit , consectetur adipiscing elit, sed do iusmod tempor 
                             incididunt ut labore et dolore magna aliqua. 
                             Quis ipsum suspendisse ultrices.</p>
-                        <button class="btn btn-dark">Contact Us</button>    
+                        <button id="secF_btn1" class="btn btn-light rounded-pill"> Contact Us</button>    
                     </div>
 
-
-                    <div class="col-md-6">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
                         <div class="row align-items-center text-center">
                             <div class="col-md-5">
-                                <div class="card" style="height: 18rem;">
+                                <div class="card shadow p-3 mb-5 bg-body-tertiary rounded" style="height: 12.4rem;">
                                     <div class="container justify-content-center" style="border:1px solid black;">
-                                        <img src="../Task 5/images/1.png" class="card-img-top" style="width:5em" alt="something went wrong!!!">
+                                        <img src="../Task 5/images/1.png" class="card-img-top" style="width:3.2em" alt="something went wrong!!!">
                                     </div>
                                     
                                     <div class="card-body">
                                       <h1 class="card-title"><b>452</b></h1>
-                                      <p class="card-text">Pets Available</p>
+                                      <p class="card-text text-muted" style="color: black;">Pets Available</p>
                                       
                                     </div>
                                   </div>
@@ -277,30 +283,30 @@
 
                             <div class="col-md-6">
                                 <div class="row">
-                                    <div class="col-11">
-                                        <div class="card" style="height: 15rem;">
+                                    <div class="col-10">
+                                        <div class="card shadow p-3 mb-5 bg-body-tertiary rounded" style="height: 11.4rem;">
                                             <div class="container justify-content-center" style="border:1px solid black;">
-                                                <img src="../Task 5/images/2.png" class="card-img-top" style="width:5em" alt="something went wrong!!!">
+                                                <img src="../Task 5/images/2.png" class="card-img-top" style="width:4em" alt="something went wrong!!!">
                                             </div>
                                             
                                             <div class="card-body">
                                               <h1 class="card-title"><b>52+</b></h1>
-                                              <p class="card-text">pets Available</p>
+                                              <p class="card-text text-muted" style="color: black;">pets Available</p>
                                               
                                             </div>
                                           </div>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-11">
-                                        <div class="card" style="height: 15rem;">
+                                    <div class="col-10">
+                                        <div class="card shadow p-3 mb-5 bg-body-tertiary rounded" style="height: 11.4rem;">
                                             <div class="container justify-content-center" style="border:1px solid black;">
-                                                <img src="../Task 5/images/3.png" class="card-img-top" style="width:5em" alt="something went wrong!!!">
+                                                <img src="../Task 5/images/3.png" class="card-img-top" style="width:4em" alt="something went wrong!!!">
                                             </div>
                                             
-                                            <div class="card-body">
+                                            <div class="card-body ">
                                               <h1 class="card-title">52+</h1>
-                                              <p class="card-text">pets Available</p>
+                                              <p class="card-text text-muted" style="color:black">pets Available</p>
                                               
                                             </div>
                                           </div>
@@ -317,9 +323,9 @@
 
         <!--  THIS IS FOR CAUROSEL SECTION  -->
 
-        <div id="carouselExampleInterval" class="carousel carousel-dark slide" data-bs-ride="carousel" style="border:1px solid black">
+        <div id="carouselExampleInterval" class="carousel carousel-dark slide pt-5" data-bs-ride="carousel" style="border:1px solid black">
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
+                <div class="carousel-item active" data-bs-interval="10000" style="border: 1px solid green;">
                     <div class="container text-start justify-content-center" style="border:1px solid blue;">
                         <div class="row align-items-center fs-6" style="border:1px solid rosybrown">
                             <div class="col-md-2"></div>
@@ -348,9 +354,9 @@
                                 <img src="../Task 5/images/jhon_walker.png" class="d-block w-100" alt="something went wrong!!">
                             </div>
                             <div class="col-md-6">
-                                <h4 class="p-0">Jhon Walker</h4>
-                                <p>Head of web design</p>
-                                <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                <h4 class="p-0" style="margin-top: 5px;">Jhon Walker</h4>
+                                <p style="margin-top: -10px;">Head of web design</p>
+                                <P style="margin-top: -10px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                                 Nostrum alias, voluptatem, doloremque consequuntur fugit saepe labore 
                                 aliquam adipisci quidem eius aliquid laboriosam. Minus ducimus laudantium 
                                 expedita repellendus earum recusandae numquam.</P>
@@ -367,9 +373,9 @@
                                 <img src="../Task 5/images/jhon_walker.png" class="d-block w-100" alt="something went wrong!!">
                             </div>
                             <div class="col-md-6">
-                                <h4>Jhon Walker</h4>
-                                <p>Head of web design</p>
-                                <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                <h4 style="margin-top: 5px;">Jhon Walker</h4>
+                                <p style="margin-top: -10px;">Head of web design</p>
+                                <P style="margin-top: -10px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                                 Nostrum alias, voluptatem, doloremque consequuntur fugit saepe labore 
                                 aliquam adipisci quidem eius aliquid laboriosam. Minus ducimus laudantium 
                                 expedita repellendus earum recusandae numquam.</P>
@@ -392,7 +398,7 @@
 
 
         <!-- THIS IS FOR OUR TEAM SECTION  -->
-        <div class="secG_div1">
+        <div class="secH_div1">
             <div class="container-fluid text-center">
                 <div class="row align-items-center">
                     <div class="col-md-6 offset-md-3">
@@ -507,7 +513,6 @@
 
 
 
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>   
 </body>
 </html>
