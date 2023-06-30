@@ -35,7 +35,8 @@ color: #fd7e14;
     color: white;
 }
 #sec3_div2 h1{
- font-size: 5em;
+ font-size: 4.5em;
+ margin: 0px;
 }
 #sec3_div2 button{
     padding-left: 2em;
@@ -100,3 +101,88 @@ color: #fd7e14;
 #carouselExampleInterval p{
     color: black;
 }
+
+
+/* This is for sec H (our team section) */
+
+#secH_div1 p{
+    color: black;
+    font-size: .8em;
+
+}
+#secH_div2 p{
+    color: black;
+    font-size: .8em;
+
+}
+#secH_namecard{
+    animation-duration: .3s;
+    animation-iteration-count:1;
+    /* transform-origin: bottom;   */
+    
+}
+#secH_namecard:hover{
+    animation-name: bounce;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    100%  { transform: translateY(-8%); }
+    
+}  
+
+
+#secG_div1{
+    border: 1px solid black;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-image: url(../images/banner3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+#secG_div1 h2{
+ color: white;
+ font-size: 3em;
+}
+
+#secG_div1 p{
+    padding-top: 5%;
+    color:white;
+   
+
+}
+#secG_div1 button{
+    /* background-image: -webkit-linear-gradient(0deg, #f14437 0%, #ed5b0d 99%); */
+    background-color: white;
+    color: #ed5b0d ;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: .6em;
+    padding-bottom: .6em;
+   
+}
+#secG_div1 button:hover{
+    background-color: #ed5b0d;
+    color: white;
+    border: 1px solid #ed5b0d;
+   
+}
+
+#secG_div2{
+    padding-top: 10%;
+    padding-bottom:10%;
+}
+
+#secG_div2 h3{
+    font-size: 1.5em;
+}
+
+#secG_div2 p{
+    color: black;
+    opacity: 50%;
+}
+
+
